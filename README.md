@@ -7,8 +7,9 @@ Sai Chand Meda: CWID 885237370
 
 Google Colab Link: https://colab.research.google.com/drive/1iIcM2LV_eXZ6o9PMCn7pTxKCbEbW3QFF?usp=sharing
 
-Steps to Run the Application:
+#Steps to Run the Application:
 For Machine Learning Part
+
 1.	The Github links contains the below file 
 a.	Automatic_Number_Plate_Detection_Recognition_YOLOv8_new.zip
 b.	Colab Code.ipynb
@@ -25,16 +26,15 @@ i.	producer.ipynb
 4.	Run all the cells of Colab Code (Runtime as GPU)
 5.	For running cell 6 if you face any issues, please create a roboflow account for accessing their dataset. An api will be assigned which you can use in the code.
 6.	While running 18th cell note where the results are saved  
- 
-o	Modify the save path variable with the value on 20th cell. Note: keep the .mp4 same as your sources .mp4 name
- 
-o	Same goes while running the cell 22nd and 24th cell.
+7.	Modify the save path variable with the value on 20th cell. Note: keep the .mp4 same as your sources .mp4 name
+8.	Same goes while running the cell 22nd and 24th cell.
+
 o	Note: If you get an error while downloading any files from drive please use the file given on github
 o	predict.py file is uploaded
 o	cars.mp4 file is uploaded
 o	demo.mp4 file is uploaded
 
-7.	For Hadoop Part:
+9. For Hadoop Part:
 Install Hadoop HDFS on your local machine:
 a.	Delete the files in datanode folder
 b.	Delete the files in namenode folder 
@@ -43,7 +43,7 @@ i.	#hadoop namenode -format
 ii.	#star-all.cmd
 iii.	#jps
 
-8.	For Apache Kafka Part:
+10.	For Apache Kafka Part:
 
 Install Apache Kafka & Zookeeper
 a.	Run the following commands 
