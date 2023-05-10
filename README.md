@@ -36,28 +36,28 @@ o	demo.mp4 file is uploaded
 
 9. For Hadoop Part:
 Install Hadoop HDFS on your local machine:
-a.	Delete the files in datanode folder
-b.	Delete the files in namenode folder 
-c.	Run the following commands
-i.	#hadoop namenode -format
-ii.	#star-all.cmd
-iii.	#jps
+1. Delete the files in datanode folder
+2. Delete the files in namenode folder 
+3. Run the following commands
+4. #hadoop namenode -format
+5. #star-all.cmd
+6. #jps
 
 10.	For Apache Kafka Part:
 
 Install Apache Kafka & Zookeeper
-a.	Run the following commands 
-i.	C:\kafka>.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
-ii.	C:\kafka>.\bin\windows\kafka-server-start.bat .\config\server.properties
-iii.	C:\kafka\bin\windows>kafka-topics.bat --create --bootstrap-server localhost:9092 --topic test
-iv.	C:\kafka\bin\windows>kafka-console-producer.bat --broker-list localhost:9092 --topic test
-v.	C:\kafka\bin\windows>kafka-console-consumer.bat --topic test --bootstrap-server localhost:9092 --from-beginning
-b.	Download the CroppedImages.zip and unzip it from github and store it locally
-c.	Download the producer.ipynb and consumer.ipynb file from github
-i.	Modify the path of the folder_path = 'C:/Users/tejas/OneDrive/Desktop/Latest/DB/CroppedImages/CroppedImages' based on where you have downloaded and unzipped CroppedImages folder
-ii.	Run consumer.ipynb first and then run producer.ipynb
-iii.	You will see the data being loaded to HDFS
-iv.	Run producer code again and you will see the amount being displayed in consumer.ipynb
+1. Run the following commands 
+2. C:\kafka>.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+3. C:\kafka>.\bin\windows\kafka-server-start.bat .\config\server.properties
+4. C:\kafka\bin\windows>kafka-topics.bat --create --bootstrap-server localhost:9092 --topic test
+5. C:\kafka\bin\windows>kafka-console-producer.bat --broker-list localhost:9092 --topic test
+6. C:\kafka\bin\windows>kafka-console-consumer.bat --topic test --bootstrap-server localhost:9092 --from-beginning
+7. Download the CroppedImages.zip and unzip it from github and store it locally
+8. Download the producer.ipynb and consumer.ipynb file from github
+9. Modify the path of the folder_path = 'C:/Users/tejas/OneDrive/Desktop/Latest/DB/CroppedImages/CroppedImages' based on where you have downloaded and unzipped CroppedImages folder
+10. Run consumer.ipynb first and then run producer.ipynb
+11. You will see the data being loaded to HDFS
+12. Run producer code again and you will see the amount being displayed in consumer.ipynb
 
 
 
