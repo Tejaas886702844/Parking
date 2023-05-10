@@ -1,7 +1,7 @@
 # Automated Parking System
 Automated Parking System CPSC 531 Advanced Database Management 
 
-#Team Members:
+Team Members:
 Tejaas Mukunda Reddy: CWID 886702844
 Sai Chand Meda: CWID 885237370
 
